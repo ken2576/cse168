@@ -5,7 +5,7 @@
   <!-- Basic Page Needs
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <meta charset="utf-8">
-  <title>CSE 168 Assignment 1</title>
+  <title>CSE 168 Ray Tracer</title>
   <meta name="description" content="">
   <meta name="author" content="">
 
@@ -34,13 +34,56 @@
   <div class="container">
 	<div class="row">
       <div class="two column" style="margin-top: 10%">
-        <h1>CSE 168 Assignment</h1>
+        <h1>CSE 168 - Optix Ray Tracer</h1>
       </div>
     </div>
     <div class="row">
       <div class="seven columns" style="margin-top: 0px">
-        <h4>Homework 1</h4>
-        <p>This index.html page is a placeholder with the CSS, font and favicon. It's just waiting for you to add some content! If you need some help hit up the <a href="http://www.getskeleton.com">Skeleton documentation</a>.</p>
+        <h3>Basics</h3>
+        <p>We implemented our ray tracer with NVIDIA Optix, as it utilizes GPU to accelerate ray tracing and enables faster rendering of complex scenes. Currently, it supports basic shading model and allows for simple effects like reflection. We will continue to improve it throughout the course.</p>
+      </div>
+    </div>
+	<div class="row">
+      <div class="seven columns" style="margin-top: 0px">
+        <h3>Acceleration Structure</h3>
+        <p>We implemented our acceleration structure with Optix's built-in <code>Trbvh</code>.</p>
+      </div>
+    </div>
+	<div class="row">
+      <div class="seven columns" style="margin-top: 0px">
+        <h3>Results</h3>
+      </div>
+    </div>
+	<div class="row">
+      <div class="seven columns" style="margin-top: 0px">
+	    <figure>
+          <img src="images/scene4-ambient.png">
+		  <figcaption>scene4-ambient.png</figcaption>
+		</figure>
+		<figure>
+          <img src="images/scene4-emission.png">
+		  <figcaption>scene4-emission.png</figcaption>
+		</figure>
+		<figure>
+          <img src="images/scene4-diffuse.png">
+		  <figcaption>scene4-diffuse.png</figcaption>
+		</figure>
+		<figure>
+          <img src="images/scene4-specular.png">
+		  <figcaption>scene4-specular.png</figcaption>
+		</figure>
+		<figure>
+          <img src="images/scene5.png">
+		  <figcaption>scene5.png</figcaption>
+		</figure>
+		<figure>
+          <img src="images/scene6.png">
+		  <figcaption>scene6.png</figcaption>
+		</figure>
+		<figure>
+          <img src="images/scene7.png">
+		  <figcaption>scene7.png</figcaption>
+		</figure>
       </div>
     </div>
   </div>
